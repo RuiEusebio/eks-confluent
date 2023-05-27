@@ -1,4 +1,6 @@
 control_center:
   enabled: true  
   externalAccess:
-    type: loadbalancer
+    type: loadBalancer
+    loadBalancer:
+      domain: ## Domain
