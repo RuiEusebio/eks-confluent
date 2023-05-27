@@ -3,4 +3,4 @@ control_center:
   externalAccess:
     type: loadBalancer
     loadBalancer:
-      domain: kafka.dns-cloud.net
+      domain: controlcenter.r-eusebio.online
