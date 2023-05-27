@@ -3,4 +3,4 @@ control_center:
   externalAccess:
     type: loadBalancer
     loadBalancer:
-      domain: ""
+      domain: kafka.dns-cloud.net
