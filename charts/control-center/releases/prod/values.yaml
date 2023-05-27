@@ -1,0 +1,4 @@
+control_center:
+  enabled: true  
+  externalAccess:
+    type: loadbalancer
