@@ -2,3 +2,4 @@ kafka:
   enabled: true
   storageClass: standard
   # storageClass: gp2-retain-expandable
+  externalAccess: {} 
