@@ -1,7 +1,3 @@
 control_center:
   enabled: true  
-  externalAccess:
-    type: nodePort
-    nodePort:
-      host: controlcenter.confluent.svc.cluster.local
-      nodePortOffset: 30021
+  externalAccess: {}
