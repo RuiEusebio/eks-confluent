@@ -3,4 +3,4 @@ control_center:
   externalAccess:
     type: loadBalancer
     loadBalancer:
-      domain: controlcenter.r-eusebio.online
+      domain: r-eusebio.online
