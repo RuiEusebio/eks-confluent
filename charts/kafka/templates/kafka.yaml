@@ -37,7 +37,7 @@ spec:
       tls:
         enabled: true
   metricReporter:
-    enabled: true
+    enabled: false
     bootstrapEndpoint: kafka:9092
     authentication:
       type: plain
