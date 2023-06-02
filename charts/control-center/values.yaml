@@ -1,6 +1,3 @@
 control_center:
   enabled: true  
-  externalAccess:
-    type: loadBalancer
-    loadBalancer:
-      domain: controlcenter.r-eusebio.online
+  externalAccess: {}
