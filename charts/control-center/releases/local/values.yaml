@@ -3,5 +3,5 @@ control_center:
   externalAccess:
     type: nodePort
     nodePort:
-      host: controlcenter.confluent.svc.cluster.local
+      host: localhost
       nodePortOffset: 30021
