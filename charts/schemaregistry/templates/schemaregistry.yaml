@@ -25,7 +25,7 @@ spec:
       ## Disable refresh MDS servers request because we are using Kubernetes DNS
       - confluent.metadata.enable.server.urls.refresh=false
       - schema.compatibility.level=full_transitive
-      - kafkastore.topic._schemas_schemaregistry_confluent=2
+      - kafkastore.topic._schemas_schemaregistry_confluent=2:3
     jvm:
       ### https://docs.confluent.io/platform/current/schema-registry/installation/deployment.html
       ## Recomended is 1GB of Heap.
