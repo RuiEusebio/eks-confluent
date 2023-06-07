@@ -30,5 +30,14 @@ spec:
       ### https://docs.confluent.io/platform/current/schema-registry/installation/deployment.html
       ## Recomended is 1GB of Heap.
       - "-Xms256m"
-      - "-Xmx1g"        
+      - "-Xmx1g"
+  dependencies:
+    kafka:
+      bootstrapEndpoint: kafka.confluent.svc.cluster.local:9071
+      authentication:
+        type: plain
+        jaasConfig:
+          secretRef: credential
+      tls:
+        enabled: true      
 {{ end }}    
